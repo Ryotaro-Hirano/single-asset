@@ -5,7 +5,7 @@
  * Project Name: NYC Design
  * Version: 1.0
  * Date: 04-20-2014
- * URL: 
+ * URL:
  */
 
 
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 .menu a > i {
 	float: left;
 	display: inline-block;
-	vertical-align: middle; 
+	vertical-align: middle;
 	text-align: left;
 	width: 25px;
 	font-size: 14px;
@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/back.jpg) no-repeat center top;
+	background: url(../img/img-trump.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:120px;
 	text-align:center;
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -328,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 }
 .about {
-	background-image: url(../img/about-sep.jpg);
+	background-image: url(../img/img-novel.jpg);
 }
 
 /* Portfolio Wrap Section */
@@ -367,8 +367,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio {
-	background-image: url(../img/portfolio-sep.jpg);
+	background-image: url(../img/img-stockholm-sunset.jpg);
 }
+
+/* profile Wrap */
+#profilewrap {
+	display: block;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+#profilewrap h1 {
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.yakuin-padding td {
+  padding-right: 100px;
+}
+
 
 /* Service Wrap */
 #servicewrap {
@@ -428,7 +446,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact {
-	background-image: url(../img/contact-sep.jpg);
+	background-image: url(../img/img-venis.jpg);
 }
 
 #contactwrap label {
@@ -458,7 +476,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-transition: opacity 0.4s;
   -o-transition: opacity 0.4s;
   transition: opacity 0.4s;
-  
+
 }
 
 .project:hover .photo-wrapper {
@@ -487,4 +505,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .desc {
 	margin-top: 25px;
+}
+
+
+@charset "utf-8";
+
+#map-canvas {
+    width: 100%;
+}
+
+#header-hollow {
+    padding: 10px 0px;
+}
+
+.info-window {
+    width: 250px;
+    display: table-cell;
+    vertical-align: middle;
 }
